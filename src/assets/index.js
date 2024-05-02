@@ -50,6 +50,7 @@ import chat from "./chat.png";
 import netflix from "./netflix.png";
 
 import syoft from "./company/syoft.jpg";
+import homx from "./homex.png";
 
 export {
   live,
@@ -99,5 +100,6 @@ export {
   java,
   next,
   postman,
+  homx,
   syoft,
 };

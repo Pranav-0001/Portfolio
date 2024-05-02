@@ -37,7 +37,8 @@ import {
   fb,
   instagram,
   netflix,
-  syoft
+  syoft,
+  homx
 } from "../assets";
 
 export const navLinks = [
@@ -250,6 +251,28 @@ const projects = [
     liveLink: "https://classyfashion.online/",
   },
   {
+    name: "Homex solutions",
+    description:
+      "As a freelance developer, I had the opportunity to collaborate with a local pest control service to create a dynamic and user-friendly website tailored to their specific needs. This project aimed to enhance their online presence.",
+    tags: [
+      {
+        name: "react",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: homx,
+    source_code_link: "https://github.com/Pranav-0001/homexsolutions",
+    liveLink: "https://homexsolutions.in/",
+  },
+  {
     name: "Rhytm",
     description:
       "a captivating music web app built with React and powered by Firebase for seamless data management and authentication. Providing an enjoyable experience.",
@@ -347,8 +370,8 @@ const social = [
   },
 ];
 
-const experiences = [{
-  
+const experiences = [
+  {
     title: "Jr. Software Developer",
     company_name: "Syoft",
     icon: syoft,
@@ -359,9 +382,9 @@ const experiences = [{
       "Messaging Platform Development",
       "Chatbot Builder Development",
       "Development of a messaging platform that allows businesses to automate messaging workflows.",
-      "Assist in managing and optimizing databases, including MongoDB, to ensure data reliability and performance"
+      "Assist in managing and optimizing databases, including MongoDB, to ensure data reliability and performance",
     ],
-  
-}];
+  },
+];
 
-export { technologies, projects, social,experiences };
+export { technologies, projects, social, experiences };
